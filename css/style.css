@@ -246,8 +246,55 @@ footer{
 
 
 
+/*Media Queries*/
 
 
+/*lg - Computadora*/
+@media (min-width:1200px){
+	
+	
+	
+}
+
+/*sm - Tableta*/
+@media (min-width:600px) and (max-width:1200px){
+	
+	#hero .position-relative{
+		width: 100%;
+	}	
+	#hero{
+		padding-bottom: 5%;
+	}	
+	.box-padding{
+		padding: 30px 20px;
+	}	
+	#team .card{
+		margin-bottom: 20px;
+	}
+}
+/*Celular*/
+@media (max-width:600px){
+	
+	#hero .position-relative{
+		display: none;
+	}
+	#hero{
+		text-align: center;
+		padding-bottom: 5%;
+	}	
+	.box-padding{
+		padding: 20px 20px;
+	}	
+	#work-tab .nav-link{
+		font-size: 14px;	
+	}
+	#team .card{
+		margin-bottom: 20px;
+	}	
+	.titulos-centrado{
+		width: 100%;	
+	}
+}
 
 
 
